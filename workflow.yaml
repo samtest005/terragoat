@@ -12,8 +12,8 @@ on:
 jobs:
   build:
     runs-on: self-hosted
-    
-      steps:
+
+    steps:
       - name: Checkout repo
         uses: actions/checkout@v2
 
@@ -24,3 +24,4 @@ jobs:
           PRISMA_API_URL: https://api0.prismacloud.io
         with:
           api-key: ${{ secrets.BC_API_KEY }}
+
