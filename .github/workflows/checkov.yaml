@@ -24,4 +24,5 @@ jobs:
           PRISMA_API_URL: https://api0.prismacloud.io
           BC_API_KEY: ${{ secrets.BC_API_KEY }}
           BC_REPO_ID: test/test
+          REPO_ID: test/test
 
