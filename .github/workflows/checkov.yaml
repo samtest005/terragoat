@@ -20,8 +20,8 @@ jobs:
       - name: Run Prisma Cloud 
         id: prisma-cloud
         uses: bridgecrewio/checkov-action@master
-        env:
+        with:
           PRISMA_API_URL: https://api0.prismacloud.io
           BC_API_KEY: ${{ secrets.BC_API_KEY }}
-          REPO_ID: test/githubactions
+          REPO_ID: test
 
