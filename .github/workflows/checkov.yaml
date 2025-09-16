@@ -26,5 +26,6 @@ jobs:
           BC_REPO_ID: test/test
           INPUT_DOWNLOAD_EXTERNAL_MODULES: true
           USE_ENFORCERMENT_RULES: false
+          File: s3.tf
      
 
