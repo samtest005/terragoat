@@ -25,6 +25,6 @@ jobs:
           BC_API_KEY: ${{ secrets.BC_API_KEY }}
           BC_REPO_ID: test/test
           INPUT_DOWNLOAD_EXTERNAL_MODULES: true
-          use_enforcement_rules: true
+          USE_ENFORCERMENT_RULES: true
      
 
