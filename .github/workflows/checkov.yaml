@@ -25,7 +25,7 @@ jobs:
           BC_API_KEY: ${{ secrets.BC_API_KEY }}
           BC_REPO_ID: test/test
           INPUT_DOWNLOAD_EXTERNAL_MODULES: true
-          USE_ENFORCERMENT_RULES: false
+          USE_ENFORCERMENT_RULES: true
           File: s3.tf
      
 
